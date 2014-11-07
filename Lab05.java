@@ -2,8 +2,8 @@
 *
 * Description of the program goes here  // provide a brief description
 *
-* @author <Your Name here>  // replace <...> with your name
-* @version <date/of/completion> // replace <...> with the date
+* @author Yoni Lavi
+* @version 6/11/14
 */
 
 import edu.fcps.karel2.Display;
@@ -14,7 +14,7 @@ public class Lab05 {
      public static void main(String[] args) {
           Display.openWorld("maps/shuttle.map");
           Display.setSize(10, 10);
-          Display.setSpeed(5);
+          Display.setSpeed(8);
           Racer karel = new Racer(1);
           Racer bob = new Racer(4);
           Racer tom = new Racer(7);

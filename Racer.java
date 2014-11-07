@@ -56,4 +56,10 @@ public class Racer extends Athlete {
       put(beepers);
       turnAround();
    }
+   public void runTheRace() {
+      shuttle(2, 7);
+      shuttle(4, 5);
+      shuttle(6, 3);
+      move();
+   }
 }
